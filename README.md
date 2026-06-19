@@ -1,6 +1,4 @@
-# DevUnity
-Pathfinding of Enemy to Player,
-Take dmg by Bullet,
-Buttone per attivare e disattivare il pathfinding,
-Player stats,
-Player movment.
+#Decay Rush
+
+Vampire-like project done with a group of colleages during the second year at AIV.
+Overall duration of the whole project: 1 month
