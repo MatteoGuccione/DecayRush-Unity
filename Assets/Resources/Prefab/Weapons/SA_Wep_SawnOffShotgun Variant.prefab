@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7757084370334288733
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 190900, guid: d022395e007a7b44eb81a589ec7c23e6, type: 3}
+      propertyPath: m_Name
+      value: SA_Wep_SawnOffShotgun Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 190900, guid: d022395e007a7b44eb81a589ec7c23e6, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 190900, guid: d022395e007a7b44eb81a589ec7c23e6, type: 3}
+      propertyPath: m_TagString
+      value: Weapon
+      objectReference: {fileID: 0}
+    - target: {fileID: 426564, guid: d022395e007a7b44eb81a589ec7c23e6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -28.195137
+      objectReference: {fileID: 0}
+    - target: {fileID: 426564, guid: d022395e007a7b44eb81a589ec7c23e6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 62.780724
+      objectReference: {fileID: 0}
+    - target: {fileID: 426564, guid: d022395e007a7b44eb81a589ec7c23e6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.909764
+      objectReference: {fileID: 0}
+    - target: {fileID: 426564, guid: d022395e007a7b44eb81a589ec7c23e6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 426564, guid: d022395e007a7b44eb81a589ec7c23e6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 426564, guid: d022395e007a7b44eb81a589ec7c23e6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 426564, guid: d022395e007a7b44eb81a589ec7c23e6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 426564, guid: d022395e007a7b44eb81a589ec7c23e6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 426564, guid: d022395e007a7b44eb81a589ec7c23e6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 426564, guid: d022395e007a7b44eb81a589ec7c23e6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 64912776602575404, guid: d022395e007a7b44eb81a589ec7c23e6, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 64912776602575404, guid: d022395e007a7b44eb81a589ec7c23e6, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 190900, guid: d022395e007a7b44eb81a589ec7c23e6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 587331240913051699}
+    - targetCorrespondingSourceObject: {fileID: 190900, guid: d022395e007a7b44eb81a589ec7c23e6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6929869041385981139}
+  m_SourcePrefab: {fileID: 100100000, guid: d022395e007a7b44eb81a589ec7c23e6, type: 3}
+--- !u!1 &7757084370334147305 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 190900, guid: d022395e007a7b44eb81a589ec7c23e6, type: 3}
+  m_PrefabInstance: {fileID: 7757084370334288733}
+  m_PrefabAsset: {fileID: 0}
+--- !u!135 &587331240913051699
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7757084370334147305}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0.010948196, y: 0.024049059, z: 0.1807}
+--- !u!114 &6929869041385981139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7757084370334147305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61c2fc4bea7361f418118c261e0e3567, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponType: SG
+  timeToShoot: 5
+  weaponDamage: 10
+  maxDamage: 40
+  minTimeToShoot: 2
+  bulletPrefab: {fileID: 2741222334712756324, guid: 989eba728df685d4aa4a1b91a1106318, type: 3}
+  GOJWeapon: 0
+  playerManager: {fileID: 0}
